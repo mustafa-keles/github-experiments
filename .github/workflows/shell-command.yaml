@@ -1,0 +1,11 @@
+name: shell-command
+on: workflow_dispatch
+jobs:
+  shell-scripting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: congratulations-text
+        run: |
+          echo "Great evening"
+          echo "this is my second shell line"
+    
