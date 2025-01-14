@@ -8,4 +8,9 @@ jobs:
         run: |
           echo "Great evening"
           echo "this is my second shell line"
-    
+  shell-scripting-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: farewell-text
+        run: |
+          echo "See you tomorrow"  
